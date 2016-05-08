@@ -1,0 +1,67 @@
+div.all {
+	
+	font-family: Tahoma;
+	font-size: 40px;
+	height: 100%;
+
+
+}
+
+div.odd:hover {
+    background-color: yellow;	
+	color: goldenrod;
+	cursor: hand;
+}
+
+div.even:hover {
+    background-color: yellow;	
+	color: goldenrod;
+	cursor: hand;
+}
+
+div.final:hover {
+    background-color: yellow;	
+	color: goldenrod;
+	cursor: hand;
+}
+
+div.odd {	
+    
+    display: inline-block;
+	white-space:nowrap;
+    float:left;
+	width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-left: 10px dotted #D0D0FF; 
+	text-align: center;
+}
+
+div.even {
+    display: inline-block;
+	white-space:nowrap;
+    float:left;
+	width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-left: 10px dotted #D0D0FF; 
+	text-align: center;
+}
+
+div.final {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    float:right;
+	width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-left: 10px dotted #D0D0FF; 
+	text-align: center;
+}

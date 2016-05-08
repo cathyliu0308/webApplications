@@ -1,0 +1,50 @@
+div.all {
+	font-family: Tahoma;
+	font-size: 40px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	
+div.odd {	
+	width: 100px;
+    height: 100px;
+    background-color: #dfe1e7;
+	border-style: solid hidden hidden;
+	border-width: 1px;
+	border-color: #687291;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	text-align: center;
+}
+
+div.even {
+	width: 100px;
+    height: 100px;
+    background-color: #eeeff2;
+	border-style: solid hidden hidden;
+	border-width: 1px;
+	border-color: #687291;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	text-align: center;
+}
+
+div.final {
+	width: 100px;
+    height: 100px;
+    background-color: #687291;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	margin-top: 5px;
+	
+}
+p{
+	text-align: center;
+}
+
+
+
+
